@@ -1,0 +1,95 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32px;
+    gap: 16px;
+}
+
+.item{
+    color: #06253C;
+    text-decoration: none;
+}
+
+.active{
+    height: 10px;
+    width: 110px;
+    border-radius: 12px;
+    padding: 18px 70px 18px 10px;
+    display: flex;
+    align-items: center;
+    background: #4BA5EC;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav img{
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+}
+
+.divider{
+    height: 1px;
+    width: 90%;
+    background: #D5E4F7;
+    border-radius: 2px;
+}
+
+.oneLink {
+    display: flex;
+    align-items: center;
+    gap: 14.33px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.twoLink {
+    display: flex;
+    align-items: center;
+    gap: 14.91px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.threeLink {
+    display: flex;
+    align-items: center;
+    gap: 12.86px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.fourLink {
+    display: flex;
+    align-items: center;
+    gap: 14.45px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.fiveLink {
+    display: flex;
+    align-items: center;
+    gap: 17.14px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.sixLink {
+    display: flex;
+    align-items: center;
+    gap: 13.9px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+.sevenLink {
+    display: flex;
+    align-items: center;
+    gap: 12.86px;
+    font-size: 14px;
+    color: #06253C;
+}
+
+
