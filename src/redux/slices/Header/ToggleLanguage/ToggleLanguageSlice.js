@@ -6,11 +6,15 @@ const languageSlice = createSlice({
         activeButton: 'Eng',
     },
     reducers: {
+        // срезах создаются для изменения состояния Redux и обрабатываются автоматически
+        // при диспетчеризации соответствующего действия (action).
         toggleLanguage: (state, action) => {
             state.activeButton = action.payload;
+
         },
     },
 });
+
 
 export const { toggleLanguage } = languageSlice.actions;
 

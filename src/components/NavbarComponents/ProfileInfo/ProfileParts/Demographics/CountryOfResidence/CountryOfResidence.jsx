@@ -16,8 +16,13 @@ function CountryOfResidence({ formikProps }) {
 
     const handleCountryChange = (e) => {
         formikProps.setFieldValue('country', e.currentTarget.value);
-        dispatch(setCountry(e.currentTarget.value));
+        dispatch(setCountry(formikProps.values.country));
     };
+
+    //You could also use formikProps.values.country to get the current value of the country field in
+    // the formik form. However, formikProps.values.country would give you the old value of the country
+    // field before the setFieldValue function updates it with the new selected value. Therefore,
+    // e.currentTarget.value is used here to get the new selected value of the dropdown menu.
 
     return (
         <div className={classes.input}>

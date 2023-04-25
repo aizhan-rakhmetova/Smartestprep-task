@@ -1,7 +1,9 @@
 import React from 'react';
 import classes from './Profile.module.css';
 import { useDispatch, useSelector } from 'react-redux';
+//для отправки действий в Redux-хранилище, и useSelector для извлечения данных из хранилища.
 import { setName, setSurname } from '../../../../../redux/slices/ProfileInfo/profileSlice';
+//импорт двух action creators
 
 export function Profile() {
     const dispatch = useDispatch();

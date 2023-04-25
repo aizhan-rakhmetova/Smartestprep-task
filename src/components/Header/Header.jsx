@@ -12,6 +12,7 @@ export function Header() {
                 <div className={classes.logo}>
                     <a><img src={logo} alt="logo"/></a>
                 </div>
+                hi
 
                 <div className={classes.rightPartElements}>
                     <button className={`$classes.button $classes.blogButton`}>Blog</button>
